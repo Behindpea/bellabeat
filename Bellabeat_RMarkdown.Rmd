@@ -2,7 +2,7 @@
 title: "Bellabeat_RMarkdown"
 author: "Giang Nguyen"
 date: "`r Sys.Date()`"
-output: html_document
+output: github_document
 ---
 
 ## Step 1: Ask - Define the business tasks
@@ -26,17 +26,17 @@ library(lubridate) # For working with dates and times
 For this project, I used FitBit fitness tracker [data](https://www.kaggle.com/datasets/arashnic/fitbit).
 
 ```{r}
-daily_activity <- read_csv("dailyActivity_merged.csv")
-hourly_calories <- read_csv("hourlyCalories_merged.csv")
-hourly_intensities <- read_csv("hourlyIntensities_merged.csv")
-hourly_steps <- read_csv("hourlySteps_merged.csv")
-minute_calories <- read_csv("minuteCaloriesNarrow_merged.csv")
-minute_intensities <- read_csv("minuteIntensitiesNarrow_merged.csv")
-minute_steps <- read_csv("minuteStepsNarrow_merged.csv")
-minutes_mets <- read_csv("minuteMETsNarrow_merged.csv")
-minute_sleep <- read_csv("minuteSleep_merged.csv")
-heartrate_seconds <- read_csv("heartrate_seconds_merged.csv")
-weight_log <- read_csv("weightLogInfo_merged.csv")
+daily_activity <- read_csv("data/dailyActivity_merged.csv")
+hourly_calories <- read_csv("data/hourlyCalories_merged.csv")
+hourly_intensities <- read_csv("data/hourlyIntensities_merged.csv")
+hourly_steps <- read_csv("data/hourlySteps_merged.csv")
+minute_calories <- read_csv("data/minuteCaloriesNarrow_merged.csv")
+minute_intensities <- read_csv("data/minuteIntensitiesNarrow_merged.csv")
+minute_steps <- read_csv("data/minuteStepsNarrow_merged.csv")
+minutes_mets <- read_csv("data/minuteMETsNarrow_merged.csv")
+minute_sleep <- read_csv("data/minuteSleep_merged.csv")
+heartrate_seconds <- read_csv("data/heartrate_seconds_merged.csv")
+weight_log <- read_csv("data/weightLogInfo_merged.csv")
 ```
 
 ## Step 3: Process - Wrangle data and clean
