@@ -33,7 +33,7 @@ The entire data analysis process, from data cleaning to visualization, was perfo
 * Visualization & Reporting: Creating a professional visualization to communicate key findings to stakeholders.
 * Initial Data Inspection: Preliminary cleaning and high-level review of the raw CSV files.
 
-More details in [RMarkdown file](https://github.com/Behindpea/bellabeat/blob/main/Bellabeat_RMarkdown.Rmd).
+More details in [Bellabeat_RMarkdown.Rmd file](https://github.com/Behindpea/bellabeat/blob/main/Bellabeat_RMarkdown.Rmd).
 
 ## 💡 Key Findings
 The analysis of daily activity, sleep, and intensity habits revealed several key trends:
