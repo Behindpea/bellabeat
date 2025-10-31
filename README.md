@@ -51,6 +51,7 @@ The analysis of daily activity, sleep, and intensity habits revealed several key
   ![](sleep_vs_intensity.png)
 
 * Correlate between metrics: A strong positive correlation exists between Total Steps and Calories Burned, reinforcing the fundamental value proposition of activity tracking.
+  
   ![](steps_vs_calories.png)
 ## 📈 Actionable Recommendations
 Based on the analysis, the following recommendations are provided to the Bellabeat marketing team:
